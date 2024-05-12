@@ -4,7 +4,7 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero">
     <div class="hero-container">
-      <h1>Alireza Konarizadeh</h1>
+      <h1>{{ name }}</h1>
       <h2>I'm a Professional Programmer In Bandar Abbas City</h2>
       <a href="#about" class="btn-scroll scrollto" title="Scroll Down"><i class="bx bx-chevron-down"></i></a>
     </div>
@@ -29,18 +29,18 @@
               <div class="row">
                 <div class="col-lg-6">
                   <ul>
-                    <li><i class="bi bi-chevron-right"></i> <strong>Name:</strong> <span>Alireza Konarizadeh</span></li>
-                    <li><i class="bi bi-chevron-right"></i> <strong>gender:</strong> <span>Man</span></li>
-                    <li><i class="bi bi-chevron-right"></i> <strong>languages:</strong> <span>English and Persian</span></li>
-                    <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Bandar Abbas, Hormozgan, Iran</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Name:</strong> <span>{{ name }}</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>gender:</strong> <span>{{ gender }}</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>languages:</strong> <span>{{ languages }}</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>{{ city }}</span></li>
                   </ul>
                 </div>
                 <div class="col-lg-6">
                   <ul>
-                    <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>23</span></li>
-                    <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Student</span></li>
-                    <li><i class="bi bi-chevron-right"></i> <strong>PhEmailone:</strong> <span>awp.828.cr7@example.com</span></li>
-                    <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>{{ age }}</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>{{ degree }}</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>{{ email }}</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>{{ freelance }}</span></li>
                   </ul>
                 </div>
               </div>
@@ -497,7 +497,7 @@
                 <div class="info-box mt-4">
                   <i class="bx bx-envelope"></i>
                   <h3>Email Me</h3>
-                  <p>awp.828.cr7@example.com</p>
+                  <p>{{ email }}</p>
                 </div>
               </div>
 {#              <div class="col-md-6">#}
